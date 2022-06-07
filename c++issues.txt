@@ -1,0 +1,18 @@
+issues I experienced when compiling cpp files contained a lot of header files, since I am playing around competitive programming these days.
+If some files not found.
+
+like: /Library/Developer/CommandLineTools/usr/include/bits/c++config.h:586:10: fatal error: 'bits/os_defines.h' file not found
+#include <bits/os_defines.h>
+         ^~~~~~~~~~~~~~~~~~~
+1 error generated.
+
+
+
+
+Steps: 1. Install homebrew in macbook
+       2. Using brew install g++
+       3. cd /usr/local/bin
+       4. ln -s g++-11 g++
+       5. And ls, you will find g++ is created.
+       
+       
